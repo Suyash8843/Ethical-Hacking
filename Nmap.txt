@@ -1,0 +1,20 @@
+NMap
+1.ACK
+Target : scanme.nmap.org
+Command : nmap -T4 -A -v scanme.nmap.org
+
+2.SYN
+Target : scanme.nmap.org
+Command : nmap -p 22,113,139 scanme.nmap.org
+
+3.FIN
+Target : scanme.nmap.org
+Command : nmap -sF -T4 scanme.nmap.org
+
+4.NULL
+Target : scanme.nmap.org
+Command : nmap -sN -p 22 scanme.nmap.org
+
+4.XMAS
+Target : scanme.nmap.org
+Command : nmap -sX -T4 scanme.nmap.org
